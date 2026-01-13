@@ -30,7 +30,13 @@ app.get('/', (req, res) => {
   res.json({
     message: 'Task Management API',
     version: '1.0.0',
+    status: 'online',
   });
+});
+
+// Health check endpoint
+app.get('/health', (req, res) => {
+  res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
 
 app.use('/api/auth', authRoutes);
