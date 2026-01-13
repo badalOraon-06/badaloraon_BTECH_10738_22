@@ -244,18 +244,12 @@ npm test
 
 ## 🚀 Deployment
 
-### Backend Deployment Options
+For detailed deployment instructions, see [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md).
 
-- Render
-- Railway
-- Heroku
-- AWS/Azure/GCP
-
-### Frontend Deployment Options
-
-- Vercel
-- Netlify
-- GitHub Pages
+**Quick Deploy:**
+- **Backend:** Render (recommended) or Railway
+- **Frontend:** Vercel (recommended) or Netlify
+- **Database:** MongoDB Atlas (already configured)
 
 ## 📝 Database Models
 
