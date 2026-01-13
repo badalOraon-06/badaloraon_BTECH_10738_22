@@ -206,26 +206,32 @@ The application is fully responsive and works seamlessly on:
 ## 📸 Screenshots
 
 ### Home Page
+
 ![Home Page](screenshots/home.png)
-*Landing page with features showcase*
+_Landing page with features showcase_
 
 ### Login Page
+
 ![Login Page](screenshots/login.png)
-*User authentication interface*
+_User authentication interface_
 
 ### Dashboard - Kanban Board
+
 ![Kanban Board](screenshots/dashboard.png)
-*Drag and drop task management with three columns*
+_Drag and drop task management with three columns_
 
 ### Create/Edit Task
+
 ![Task Modal](screenshots/task-modal.png)
-*Task creation and editing interface*
+_Task creation and editing interface_
 
 ### Profile Page
+
 ![Profile Page](screenshots/profile.png)
-*User profile management*
+_User profile management_
 
 > **Note**: Screenshots will be added after initial testing. To add screenshots:
+>
 > 1. Create a `screenshots` folder in the project root
 > 2. Take screenshots of the application
 > 3. Save them with the names shown above
