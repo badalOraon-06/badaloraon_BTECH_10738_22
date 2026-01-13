@@ -7,7 +7,7 @@ const TaskCard = ({ task, onEdit, onDelete }) => {
   const isPastDue = new Date(task.due_date) < new Date() && task.status !== 'completed';
 
   return (
-    <div className="bg-white rounded-lg shadow-md p-4 mb-3 cursor-move hover:shadow-lg transition-shadow">
+    <div className="bg-white rounded-lg shadow-md p-4 mb-3 cursor-move hover:shadow-lg transition-shadow select-none">
       <div className="flex justify-between items-start mb-2">
         <h3 className="font-semibold text-gray-900 text-lg flex-1 mr-2">{task.title}</h3>
         <div className="flex gap-1 flex-shrink-0">

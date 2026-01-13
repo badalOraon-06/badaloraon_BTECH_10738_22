@@ -5,6 +5,8 @@ import {
   closestCorners,
   KeyboardSensor,
   PointerSensor,
+  MouseSensor,
+  TouchSensor,
   useSensor,
   useSensors,
 } from '@dnd-kit/core';
@@ -24,9 +26,15 @@ const Dashboard = () => {
   const [activeId, setActiveId] = useState(null);
 
   const sensors = useSensors(
-    useSensor(PointerSensor, {
+    useSensor(MouseSensor, {
       activationConstraint: {
-        distance: 8, // 8px of movement required before dragging starts (better for touch)
+        distance: 10, // Require 10px movement before dragging starts
+      },
+    }),
+    useSensor(TouchSensor, {
+      activationConstraint: {
+        delay: 250, // 250ms delay before drag starts on touch devices
+        tolerance: 5, // Allow 5px of movement during the delay
       },
     }),
     useSensor(KeyboardSensor, {
