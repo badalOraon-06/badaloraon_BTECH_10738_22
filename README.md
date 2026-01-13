@@ -8,6 +8,7 @@ A full-stack Kanban-based Task Management System with user authentication and dr
 ## 🚀 Tech Stack
 
 ### Backend
+
 - **Runtime**: Node.js
 - **Framework**: Express.js
 - **Database**: MongoDB with Mongoose
@@ -16,6 +17,7 @@ A full-stack Kanban-based Task Management System with user authentication and dr
 - **Validation**: express-validator
 
 ### Frontend
+
 - **Framework**: React 18
 - **Build Tool**: Vite
 - **Styling**: Tailwind CSS
@@ -161,16 +163,19 @@ VITE_API_URL=http://localhost:5000/api
 ## 📡 API Endpoints
 
 ### Authentication
+
 - `POST /api/auth/signup` - Register new user
 - `POST /api/auth/login` - Login user
 - `POST /api/auth/logout` - Logout user (Protected)
 
 ### User Management
+
 - `GET /api/users/profile` - Get user profile (Protected)
 - `PUT /api/users/profile` - Update user profile (Protected)
 - `DELETE /api/users/profile` - Delete user account (Protected)
 
 ### Task Management
+
 - `POST /api/tasks` - Create new task (Protected)
 - `GET /api/tasks` - Get all user tasks (Protected)
 - `GET /api/tasks?status=pending` - Filter tasks by status (Protected)
@@ -192,6 +197,7 @@ VITE_API_URL=http://localhost:5000/api
 ## 📱 Responsive Design
 
 The application is fully responsive and works seamlessly on:
+
 - 📱 Mobile devices (320px+)
 - 📱 Tablets (768px+)
 - 💻 Desktop (1024px+)
@@ -212,12 +218,14 @@ npm test
 ## 🚀 Deployment
 
 ### Backend Deployment Options
+
 - Render
 - Railway
 - Heroku
 - AWS/Azure/GCP
 
 ### Frontend Deployment Options
+
 - Vercel
 - Netlify
 - GitHub Pages
@@ -225,6 +233,7 @@ npm test
 ## 📝 Database Models
 
 ### User Model
+
 ```javascript
 {
   username: String (unique, required),
@@ -236,6 +245,7 @@ npm test
 ```
 
 ### Task Model
+
 ```javascript
 {
   user: ObjectId (ref: User),
