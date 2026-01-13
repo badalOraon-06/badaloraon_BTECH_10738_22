@@ -203,6 +203,34 @@ The application is fully responsive and works seamlessly on:
 - 💻 Desktop (1024px+)
 - 🖥️ Large screens (1920px+)
 
+## 📸 Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+*Landing page with features showcase*
+
+### Login Page
+![Login Page](screenshots/login.png)
+*User authentication interface*
+
+### Dashboard - Kanban Board
+![Kanban Board](screenshots/dashboard.png)
+*Drag and drop task management with three columns*
+
+### Create/Edit Task
+![Task Modal](screenshots/task-modal.png)
+*Task creation and editing interface*
+
+### Profile Page
+![Profile Page](screenshots/profile.png)
+*User profile management*
+
+> **Note**: Screenshots will be added after initial testing. To add screenshots:
+> 1. Create a `screenshots` folder in the project root
+> 2. Take screenshots of the application
+> 3. Save them with the names shown above
+> 4. Screenshots will automatically appear in the README
+
 ## 🧪 Testing
 
 ```bash
