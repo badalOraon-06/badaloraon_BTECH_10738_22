@@ -5,6 +5,11 @@ A full-stack Kanban-based Task Management System with user authentication and dr
 **Author**: Badal Oraon  
 **Roll Number**: BTECH/10738/22
 
+## 🌐 Live Demo
+
+- **Frontend**: [https://badaloraon-btech-10738-22.vercel.app/](https://badaloraon-btech-10738-22.vercel.app/)
+- **Backend API**: [https://task-management-backend-p5up.onrender.com](https://task-management-backend-p5up.onrender.com)
+
 ## 🚀 Tech Stack
 
 ### Backend
@@ -243,8 +248,6 @@ npm test
 ```
 
 ## 🚀 Deployment
-
-
 
 **Quick Deploy:**
 
