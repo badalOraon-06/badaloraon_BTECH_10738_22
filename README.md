@@ -244,9 +244,10 @@ npm test
 
 ## 🚀 Deployment
 
-For detailed deployment instructions, see [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md).
+
 
 **Quick Deploy:**
+
 - **Backend:** Render (recommended) or Railway
 - **Frontend:** Vercel (recommended) or Netlify
 - **Database:** MongoDB Atlas (already configured)
